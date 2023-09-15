@@ -1,0 +1,15 @@
+overwrite: true
+schema: 'https://spacex-production.up.railway.app/'
+documents: './src/**/*.graphql'
+generates:
+  ./src/types/spaceX.generated.ts:
+    plugins:
+      - typescript
+  ./:
+    preset: near-operation-file
+    presetConfig:
+      extension: .generated.tsx
+      baseTypesPath: src/types/spaceX.generated.ts
+    plugins:
+      - typescript-operations
+      - typescript-react-apollo

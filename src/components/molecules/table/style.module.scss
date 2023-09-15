@@ -1,0 +1,47 @@
+.table {
+  font-size: 12px;
+  white-space: nowrap;
+
+  tbody {
+    tr {
+      &:hover {
+        background: #ececec;
+        cursor: pointer;
+      }
+    }
+  }
+
+  td,
+  th {
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
+  &__column {
+    &.narrow {
+      max-width: 30px;
+      width: 30px;
+    }
+
+    &.main {
+      max-width: 160px;
+      width: 160px;
+    }
+
+    &.date {
+      max-width: 120px;
+      width: 120px;
+    }
+  }
+
+  &__row {
+    &.main {
+      font-weight: 600;
+    }
+  }
+
+  &__button {
+    display: flex;
+    width: fit-content;
+  }
+}

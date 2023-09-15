@@ -1,0 +1,14 @@
+.launch-list {
+  &__button {
+    display: flex;
+    margin-bottom: 24px;
+    justify-content: flex-end;
+    width: 100%;
+    align-items: center;
+  }
+
+  &__error {
+    margin: 12px 0;
+    text-align: center;
+  }
+}

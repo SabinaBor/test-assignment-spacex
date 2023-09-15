@@ -1,0 +1,27 @@
+.modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: none;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 100px 0;
+
+  &__content {
+    padding: 24px;
+    background: white;
+    border-radius: 8px;
+    min-width: 400px;
+    width: 100%;
+    max-width: 80vw;
+    max-height: 80vh;
+    overflow-y: auto;
+  }
+
+  &.active {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+}

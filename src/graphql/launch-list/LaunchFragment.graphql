@@ -1,0 +1,25 @@
+fragment LaunchItem on Launch {
+    details
+    id
+    is_tentative
+    launch_date_utc
+    links {
+      article_link
+      mission_patch_small
+      video_link
+      wikipedia
+    }
+    mission_name
+    rocket {
+      rocket {
+        description
+        id
+        mass {
+          kg
+        }
+        wikipedia
+      }
+      rocket_name
+    }
+    upcoming
+}
