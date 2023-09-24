@@ -61,7 +61,6 @@
     "@graphql-codegen/typescript": "^2.7.5",
     "@graphql-codegen/typescript-operations": "^2.5.5",
     "@graphql-codegen/typescript-react-apollo": "^3.3.5",
-    "sass": "^1.66.1",
-    "@babel/preset-env": "^7.22.3"
+    "sass": "^1.66.1"
   }
 }
