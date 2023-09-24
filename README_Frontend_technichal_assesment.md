@@ -45,7 +45,7 @@ Please keep in mind the following:
 - If you have any further questions, do not hesitate to contact us.
 
 During the technical interview, we will discuss your solution. Some of the
-topics could be:
+topics could be:  
 
 - Why did you decide to use specific libraries?
 - Can you walk us through your choices and decisions?
